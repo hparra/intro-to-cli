@@ -37,6 +37,10 @@ http://sed.sourceforge.net/sed1line.txt
 http://www.catonmat.net/blog/sed-one-liners-explained-part-one/
 https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux
 
+### man pages
+
+http://liw.fi/manpages/
+
 ### Funny Stuff
 
 [On McIlroy](http://www.cs.dartmouth.edu/~sinclair/doug/?doug=mcilroy). Funny "facts" regarding Doug McIlroy a la Chuck Norris.
