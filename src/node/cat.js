@@ -11,10 +11,13 @@
 // http://nodejs.org/api/fs.html
 var fs = require('fs');
 
-// Start at 2, since we only care about the parameters. See args.js
+// start at third argument, since we only care about the command parameters
+// so for each command parameter
 for (var i = 2; i < process.argv.length; ++i) {
+
+  // read the file contents and pipe them to standard out
   fs.createReadStream(process.argv[i]).pipe(process.stdout);
 }
 
-// always print newline
+// and always print newline
 process.stdout.write('\n');

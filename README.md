@@ -88,6 +88,3 @@ _Adapated from [Loukides 2000]_
 TODO
 
 Example of python calling a Node app: https://gist.github.com/hparra/af67e9a39037a3bfdbed
-
-
-

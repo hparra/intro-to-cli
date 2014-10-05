@@ -6,6 +6,7 @@ Browse the scripts in the following order:
 - args.js
 - echo.js
 - cat.js
+- nl.js
 
 Instead of using `console.log` helper to print to standard out, we will always use the long form `process.stdout.write()`.
 
