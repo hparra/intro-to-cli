@@ -16,15 +16,26 @@ Wikipedia. [Pipeline (Unix)](http://en.wikipedia.org/wiki/Pipeline_(Unix)).
 
 Bell Laboratories. 1982. [The UNIX System: Making Computers More Productive](https://www.youtube.com/watch?v=tc4ROCJYbm0).
 
-http://www.leancrew.com/all-this/2011/12/more-shell-less-egg/
+Eric S. Raymond. 2003. [The Art of Unix Programming](http://www.faqs.org/docs/artu/). Of particular importance is the [Basics of the Unix Philosophy](http://www.faqs.org/docs/artu/ch01s06.html).
+
+Dr. Dang. 2011. [More shell, less egg](http://www.leancrew.com/all-this/2011/12/more-shell-less-egg/)
+
+
 http://theody.net/elements.html
 http://blog.petersobot.com/pipes-and-filters
-http://www.cs.dartmouth.edu/~sinclair/doug/?doug=mcilroy
+
 http://www.linfo.org/unix_philosophy.html
 http://en.wikipedia.org/wiki/Named_pipe
+http://ejohn.org/blog/node-js-stream-playground/
 
+
+Jon Bently. 1986. [Programming pearls: a literate program](http://dl.acm.org/citation.cfm?id=315654).
 
 ## Further Reading
+
+# Bell System Technical Journal, v57: i6 July-August 1978
+
+[Bell System Technical Journal, v57: i6 July-August 1978](http://alcatel-lucent.com/bstj/vol57-1978/bstj-vol57-issue06.html). Several manuscripts from various people directly responsible for key components of the UNIX system.
 
 ### bash
 

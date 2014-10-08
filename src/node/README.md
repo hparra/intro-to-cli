@@ -4,6 +4,7 @@ Browse the scripts in the following order:
 
 - hello.js
 - args.js
+- env.js
 - echo.js
 - cat.js
 - nl.js

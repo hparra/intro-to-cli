@@ -14,7 +14,14 @@
 // See http://nodejs.org/api/process.html#process_process_argv
 //
 
-// We're using `Array.forEach` for convenience
-process.argv.forEach(function (val, index, array) {
-  process.stdout.write(val + '\n');
-});
+for (var i = 0; i < process.argv.length; i++) {
+  process.stdout.write(process.argv[i] + '\n');
+};
+
+//
+// Try running `args --troll lolz -ro -f -l --lmao=you some files`
+//
+
+//
+// Next: args-minimist.js
+//

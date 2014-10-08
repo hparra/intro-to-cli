@@ -12,9 +12,13 @@
 // read individual lines from standard input.
 //
 // The following has been adapted from [Ogden 2012], adding verbose comments and
-// trivial line numbering logic.
+// trivial line numbering logic. See https://github.com/substack/stream-handbook
 //
-// See https://github.com/substack/stream-handbook
+// Also see:
+//
+// - http://nodejs.org/api/process.html#process_process_stdin
+// - http://nodejs.org/api/stream.html#stream_event_readable
+// - http://nodejs.org/api/stream.html#stream_readable_read_size
 //
 
 var offset     = 0;     // current position in our buffer
@@ -27,7 +31,7 @@ process.stdin.on('readable', function() {
   // read data into buffer
   var buf = process.stdin.read();
 
-  // but exit if there is no real data
+  // but exit if there is no more data
   if (!buf) return;
 
   // while we traverse this buffer
@@ -51,15 +55,37 @@ process.stdin.on('readable', function() {
       // and incrementing our line count
       lineNumber++;
 
-      // and put that new buffer data back into the stream
+      // and put that new (remaining) buffer data back into the stream
       process.stdin.unshift(buf);
 
       return;
     }
   }
 
-  // if we reached this then there was no linefeed in buffer
-  // so we put this data back and start process over with this data
+  // but if we traversed the buffer and did not find a linefeed
+  // then we put all the buffer data back in the stream
+  // so when we start process over we'll have that data
   // and any new data that has come down the pipe
   process.stdin.unshift(buf);
 });
+
+//
+// The preceeding was a general algorithm for data buffering which can be
+// applied to data of any byte size, delimited by any character. However,
+// since most stream data is text-based and linefeed delimited it is recommended
+// that you do not repeat yourself (DRY). See Dominic Tarr's
+// [split](https://www.npmjs.org/package/split) for a far more succint way of
+// accomplishing this task:
+//
+// ```
+// var split = require('split');
+// var lineNumber = 1;
+//
+// process.stdin
+//   .pipe(split())
+//   .on('data', function (line) {
+//     process.stdout.write(lineNumber + '\t' + line + '\n');
+//     lineNumber++;
+//   })
+// ```
+//
