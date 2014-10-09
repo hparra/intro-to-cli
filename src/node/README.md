@@ -2,23 +2,23 @@
 
 Browse the scripts in the following order:
 
-- hello.js
-- oops.js
-- args.js
-- args-minimist.js
-- args-command.js
-- env.js
-- echo.js
-- exit-success.js
-- exit-failure.js
-- istty.js
-- signals.js
-- cat.js
-- nl.js
-- nl-split.js
-- readline-example.js
-- repl.js
-- package.json
+- [hello.js](hello.js)
+- [oops.js](oops.js)
+- [args.js](args.js)
+- [args-minimist.js](args-minimist.js)
+- [args-command.js](args-command.js)
+- [env.js](env.js)
+- [exit-success.js](exit-success.js)
+- [exit-failure.js](exit-failure.js)
+- [signals.js](signals.js)
+- [cat.js](cat.js)
+- [echo.js](echo.js)
+- [istty.js](istty.js)
+- [nl.js](nl.js)
+- [nl-split.js](nl-split.js)
+- [readline-example.js](readline-example.js)
+- [repl.js](repl.js)
+- [package.json](package.json)
 
 ## Node.js modules for CLI Applications
 
