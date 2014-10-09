@@ -26,7 +26,7 @@ var line       = null;  // line string
 var lineNumber = 1;     // current line number
 
 // when there is data to be read
-process.stdin.on('readable', function() {
+process.stdin.on('readable', function () {
 
   // read data into buffer
   var buf = process.stdin.read();
@@ -70,22 +70,5 @@ process.stdin.on('readable', function() {
 });
 
 //
-// The preceeding was a general algorithm for data buffering which can be
-// applied to data of any byte size, delimited by any character. However,
-// since most stream data is text-based and linefeed delimited it is recommended
-// that you do not repeat yourself (DRY). See Dominic Tarr's
-// [split](https://www.npmjs.org/package/split) for a far more succint way of
-// accomplishing this task:
-//
-// ```
-// var split = require('split');
-// var lineNumber = 1;
-//
-// process.stdin
-//   .pipe(split())
-//   .on('data', function (line) {
-//     process.stdout.write(lineNumber + '\t' + line + '\n');
-//     lineNumber++;
-//   })
-// ```
+// Next: nl-split.js
 //

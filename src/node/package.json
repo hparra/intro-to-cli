@@ -1,0 +1,20 @@
+{
+  "name": "intro-to-cli",
+  "version": "0.1.0",
+  "description": "Introduction to the Command-Line Interface (CLI)",
+  "dependencies": {
+    "commander": "^2.3.0",
+    "minimist": "^1.1.0",
+    "split": "^0.3.0"
+  },
+  "bin": {
+    "istty" : "./istty.js"
+  },
+  "man": "./doc.1",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

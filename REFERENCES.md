@@ -39,6 +39,8 @@ Jon Bently. 1986. [Programming pearls: a literate program](http://dl.acm.org/cit
 
 ### bash
 
+Free Software Foundation. 2012. [Bash Reference Manual](http://www.gnu.org/software/bash/manual/).
+
 Carlos Fenollosa. 2004. [(Bash) Tricks](http://cfenollosa.com/misc/tricks.txt).
 
 ### sed: stream editor
@@ -48,13 +50,25 @@ http://sed.sourceforge.net/sed1line.txt
 http://www.catonmat.net/blog/sed-one-liners-explained-part-one/
 https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux
 
+### Node-specific
+
+John Resig. 2013. [Node.js Stream Playground](http://ejohn.org/blog/node-js-stream-playground/). Includes explanations about [Node Streams](http://nodestreams.com/).
+
+Max Ogden. [Node Streams: How do they work?](http://maxogden.com/node-streams.html).
+
+Derick Bailey. 2014. [Build Your Own App Specific REPL For Your NodeJS App](http://derickbailey.com/2014/07/02/build-your-own-app-specific-repl-for-your-nodejs-app/).
+
 ### man pages
 
-http://liw.fi/manpages/
+Lars Wirzenius. 2013. [Writing manual pages](http://liw.fi/manpages/)
 
 ### Funny Stuff
 
 [On McIlroy](http://www.cs.dartmouth.edu/~sinclair/doug/?doug=mcilroy). Funny "facts" regarding Doug McIlroy a la Chuck Norris.
+
+## Media
+
+(Image) http://cluster006.ovh.net/~nobeysco/nobeyscoweb/?q=node/499
 
 ### Unrelated
 

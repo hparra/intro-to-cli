@@ -3,13 +3,22 @@
 Browse the scripts in the following order:
 
 - hello.js
+- oops.js
 - args.js
+- args-minimist.js
+- args-command.js
 - env.js
 - echo.js
+- exit-success.js
+- exit-failure.js
+- istty.js
+- signals.js
 - cat.js
 - nl.js
-
-Instead of using `console.log` helper to print to standard out, we will always use the long form `process.stdout.write()`.
+- nl-split.js
+- readline-example.js
+- repl.js
+- package.json
 
 ## Node.js modules for CLI Applications
 
