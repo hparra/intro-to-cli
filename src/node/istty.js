@@ -27,7 +27,3 @@ if (process.stdout.isTTY) {
 // Checking for the TTY (console) is a great way to change to a more interactive
 // mode should your application decide to have one.
 //
-
-//
-// Next:
-//

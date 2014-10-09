@@ -40,7 +40,3 @@ rl.question("What do you think of node.js? ", function (answer) {
 
   rl.close();
 });
-
-//
-//
-//

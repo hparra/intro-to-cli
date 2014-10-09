@@ -8,9 +8,7 @@ Dennis M. Ritchie. 1979. [The Evolution of the Unix Time-sharing System](http://
 
 Dennis M. Ritchie. [Advice from Doug Mcilroy](http://web.archive.org/web/20140817144010/http://cm.bell-labs.com/cm/cs/who/dmr/mdmpipe.html)
 
-The Linux Information Project. 2004. [Pipes: A Brief Introduction](http://www.linfo.org/pipe.html). A brief introduction with historical asides and verbose examples.
-
-Also see http://www.tldp.org/LDP/abs/html/io-redirection.html
+The Linux Information Project. 2004. [Pipes: A Brief Introduction](http://www.linfo.org/pipe.html). A brief introduction with historical asides and verbose examples. Also see http://www.tldp.org/LDP/abs/html/io-redirection.html.
 
 Wikipedia. [Pipeline (Unix)](http://en.wikipedia.org/wiki/Pipeline_(Unix)).
 
@@ -18,37 +16,35 @@ Bell Laboratories. 1982. [The UNIX System: Making Computers More Productive](htt
 
 Eric S. Raymond. 2003. [The Art of Unix Programming](http://www.faqs.org/docs/artu/). Of particular importance is the [Basics of the Unix Philosophy](http://www.faqs.org/docs/artu/ch01s06.html).
 
-Dr. Dang. 2011. [More shell, less egg](http://www.leancrew.com/all-this/2011/12/more-shell-less-egg/)
-
-
-http://theody.net/elements.html
-http://blog.petersobot.com/pipes-and-filters
-
-http://www.linfo.org/unix_philosophy.html
-http://en.wikipedia.org/wiki/Named_pipe
-http://ejohn.org/blog/node-js-stream-playground/
-
+Dr. Dang. 2011. [More shell, less egg](http://www.leancrew.com/all-this/2011/12/more-shell-less-egg/).
 
 Jon Bently. 1986. [Programming pearls: a literate program](http://dl.acm.org/citation.cfm?id=315654).
 
+Miller Freeman. 1998. [The Elements Of Style: UNIX As Literature](http://theody.net/elements.html).
+
+Peter Sobot. 2013. [Pipes and Filters](http://blog.petersobot.com/pipes-and-filters).
+
+The Linux Information Project. 2006. [The Unix Philosophy: A Brief Introduction](http://www.linfo.org/unix_philosophy.html).
+
+
 ## Further Reading
 
-# Bell System Technical Journal, v57: i6 July-August 1978
+### Bell System Technical Journal, v57: i6 July-August 1978
 
 [Bell System Technical Journal, v57: i6 July-August 1978](http://alcatel-lucent.com/bstj/vol57-1978/bstj-vol57-issue06.html). Several manuscripts from various people directly responsible for key components of the UNIX system.
 
-### bash
+### Bash
 
 Free Software Foundation. 2012. [Bash Reference Manual](http://www.gnu.org/software/bash/manual/).
 
 Carlos Fenollosa. 2004. [(Bash) Tricks](http://cfenollosa.com/misc/tricks.txt).
 
-### sed: stream editor
+### SED (stream editor)
 
-http://www.grymoire.com/Unix/Sed.html
-http://sed.sourceforge.net/sed1line.txt
-http://www.catonmat.net/blog/sed-one-liners-explained-part-one/
-https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux
+Justin Ellingwood. 2014. [The Basics of Using the Sed Stream Editor to Manipulate Text in Linux](https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux).
+Bruce Barnett. 2001. [Sed - An Introduction and Tutorial](http://www.grymoire.com/Unix/Sed.html).
+Eric Pement. 2005. [USEFUL ONE-LINE SCRIPTS FOR SED](http://sed.sourceforge.net/sed1line.txt).
+Peteris Krumins. 2008. [Famous Sed One-Liners Explained](http://www.catonmat.net/blog/sed-one-liners-explained-part-one/).
 
 ### Node-specific
 
@@ -66,9 +62,9 @@ Lars Wirzenius. 2013. [Writing manual pages](http://liw.fi/manpages/)
 
 [On McIlroy](http://www.cs.dartmouth.edu/~sinclair/doug/?doug=mcilroy). Funny "facts" regarding Doug McIlroy a la Chuck Norris.
 
-## Media
+### Media
 
-(Image) http://cluster006.ovh.net/~nobeysco/nobeyscoweb/?q=node/499
+Image of Ken and DMR. http://cluster006.ovh.net/~nobeysco/nobeyscoweb/?q=node/499.
 
 ### Unrelated
 

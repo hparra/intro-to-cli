@@ -17,7 +17,3 @@ process.exit(1);
 //
 //   ./exit-failure.js && echo 'Success!'   # Does not print out 'Success!'
 //
-
-//
-// Next:
-//

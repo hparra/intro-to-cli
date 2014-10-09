@@ -1,28 +1,16 @@
-# Introduction to the CLI with Node.js
+# Introduction to the Command-Line Interface (CLI)
 
 Hector G. Parra
 
-The command-line interface, or CLI, is where modern programming tools were born and where they continue to live. Understanding the CLI allows us to use its tools properly and to create new tools with maximum reusability. We explore the Bash (Bourne Again) shell to learn CLI fundamentals, and use Node.js for examples on how we can create new tools.
+The command-line interface, or CLI, is where modern programming tools were born and where they continue to live. Understanding the CLI allows us to use its tools properly and to create new tools with maximum reusability. We explore som basics of the Bash (Bourne Again) shell to some learn CLI redirection fundamentals, and then use other programming languages for examples on how we can create new tools. _(Javascript for now)_
 
-## Examples of Node.js CLI tools
-
-- Node
-- NPM
-- Grunt
-- Gulp
-- Yeoman
-- Bower
-- Mocha
-- Supervisor
-- LESS
-- Coffeescript
-- Esprima
+_This is a work-in-progress._
 
 ## Example of a Problem
 
-Recently I was given the task of updating an older Ember.js project so that it was compatible with the Ember CLI tool.
+Recently I was given the task of updating an older [Ember.js](http://emberjs.com/) project so that it was compatible with the [Ember CLI](http://www.ember-cli.com/) tool.
 
-By default, the tool always runs JSHint as the first part of most tasks. I immediately received tons of errors like the following:
+By default, the tool always runs [JSHint](http://www.jshint.com/) as the first part of most tasks. I immediately received tons of errors like the following:
 
 `app/js/some-file.js: line 266, col 13, 'Ember' is not defined.`
 
@@ -66,25 +54,27 @@ _Note: The `|` was not the first iteration of pipes within the UNIX OS. See [Rit
 
 ## CLI Standards
 
-TODO
+- Standard Output (stdout)
+- Standard Input (stdin)
+- Standard Error (stderr)
 
 ## Redirecting Standard I/O (Bash)
 
-Send stdout to file: `prog > file`
-Send stderr to file: `prog 2> file`
-Send stdout and stderr to file: `prog > file 2>&1`
-Take stdin from file: `prog < file`
-Send stdout to end of file: `prog >> file`
-Send stderr to end of file: `prog 2>> file`
-Send stdout and stderr to end of file `prog >> file 2>&1`
-Read stdin from keyboard until c `prog <<c`
-Pipe stdout to prog2: `prog | prog2`
-Pipe stdout and stderr to prog2: `prog 2>&1 | prog2`
+- Send stdout to file: `prog > file`
+- Send stderr to file: `prog 2> file`
+- Send stdout and stderr to file: `prog > file 2>&1`
+- Take stdin from file: `prog < file`
+- Send stdout to end of file: `prog >> file`
+- Send stderr to end of file: `prog 2>> file`
+- Send stdout and stderr to end of file `prog >> file 2>&1`
+- Read stdin from keyboard until c `prog <<c`
+- Pipe stdout to prog2: `prog | prog2`
+- Pipe stdout and stderr to prog2: `prog 2>&1 | prog2`
 
 _Adapated from [Loukides 2000]_
 
-## Using pipes from within Applications
+## Code Examples
 
-TODO
-
-Example of python calling a Node app: https://gist.github.com/hparra/af67e9a39037a3bfdbed
+- [Javascript (Node.js)](src/node)
+- TODO: Go
+- TODO: C

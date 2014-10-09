@@ -73,7 +73,3 @@ process.on('SIGTSTP', function() {
 // You can learn more about Unix signals from
 // http://en.wikipedia.org/wiki/Unix_signal
 //
-
-//
-// Next:
-//

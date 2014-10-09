@@ -1,4 +1,20 @@
-# Node.js
+# CLI Applications with Node.js (Javascript)
+
+## Examples of Node.js CLI tools
+
+- Node
+- NPM
+- Gulp
+- Grunt
+- Yeoman
+- Bower
+- Mocha
+- Supervisor
+- LESS
+- Coffeescript
+- Esprima
+
+## Code Examples
 
 Browse the scripts in the following order:
 
@@ -20,7 +36,7 @@ Browse the scripts in the following order:
 - [repl.js](repl.js)
 - [package.json](package.json)
 
-## Node.js modules for CLI Applications
+## Core Node.js modules for CLI Applications
 
 Node.js has quite a few core modules that are useful for CLI applications:
 
@@ -48,6 +64,10 @@ There are some particular fields in [package.json](https://www.npmjs.org/doc/fil
 }
 ```
 
-- `bin`: path to script
-- `man`: path to man page
-- `os`: specify operating system(s)
+- `bin`: path to script that should be available system-wide on install
+- `man`: path to man page for help
+- `os`: specify operating system(s) support to include or exclude
+
+# Example of calling a Node.js CLI application
+
+- [Sublime Text plugin (python) to jsfmt](https://gist.github.com/hparra/af67e9a39037a3bfdbed)
