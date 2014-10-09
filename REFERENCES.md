@@ -42,8 +42,11 @@ Carlos Fenollosa. 2004. [(Bash) Tricks](http://cfenollosa.com/misc/tricks.txt).
 ### SED (stream editor)
 
 Justin Ellingwood. 2014. [The Basics of Using the Sed Stream Editor to Manipulate Text in Linux](https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux).
+
 Bruce Barnett. 2001. [Sed - An Introduction and Tutorial](http://www.grymoire.com/Unix/Sed.html).
+
 Eric Pement. 2005. [USEFUL ONE-LINE SCRIPTS FOR SED](http://sed.sourceforge.net/sed1line.txt).
+
 Peteris Krumins. 2008. [Famous Sed One-Liners Explained](http://www.catonmat.net/blog/sed-one-liners-explained-part-one/).
 
 ### Node-specific
